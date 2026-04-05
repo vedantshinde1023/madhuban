@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhuban Mithaiwale | Fresh Sweets & Snacks in Handewadi</title>
+    <meta name="description" content="Your trusted destination in Handewadi for delicious sweets, snacks, and evening treats — made fresh every day.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS for Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                Madhuban <span>Mithaiwale</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="tel:9766428270" class="btn btn-primary d-none-mobile"><i class="fas fa-phone-alt"></i> Call Now</a>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-nav" id="mobile-nav">
+            <button class="close-menu" id="close-menu-btn" aria-label="Close Menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="mobile-nav-links">
+                <a href="#about" class="mobile-link">About Us</a>
+                <a href="#menu" class="mobile-link">Our Menu</a>
+                <a href="#reviews" class="mobile-link">Customer Reviews</a>
+                <a href="#contact" class="mobile-link">Contact Us</a>
+                <a href="tel:9766428270" class="btn btn-primary w-100 text-center"><i class="fas fa-phone-alt"></i> Call: 9766428270</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg" style="background-image: url('images/hero.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content" data-aos="fade-up">
+            <div class="trust-strip">
+                <span class="trust-item"><i class="fas fa-star"></i> 4.1 Rating</span>
+                <span class="trust-item"><i class="fas fa-check-circle"></i> Loved by Local Families</span>
+                <span class="trust-item"><i class="fas fa-certificate"></i> Serving Quality for Years</span>
+            </div>
+            <h1 class="hero-title">Fresh Sweets. Crispy Snacks.<br>Loved by Every Family.</h1>
+            <p class="hero-subtitle">Your trusted destination in Handewadi for delicious sweets, snacks, and evening treats — made fresh every day.</p>
+            <div class="hero-cta-group">
+                <a href="https://www.swiggy.com/city/pune/madhuban-mithaiwala-pandhari-nagar-hadapsar-rest881261?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" class="btn btn-accent btn-lg pulse-animation">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/200px-Swiggy_logo.svg.png" alt="" class="swiggy-icon"> Order on Swiggy
+                </a>
+                <a href="tel:9766428270" class="btn btn-outline btn-lg">
+                    <i class="fas fa-phone-alt"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">A Sweet Tradition in Every Bite</h2>
+                    <p class="section-desc">Madhuban Mithaiwale is a well-loved neighborhood sweet shop in Handewadi, Pune, known for its wide variety of sweets and snacks. From rich desi ghee mithai to fresh namkeen and bakery items, every product is prepared with care and consistency.</p>
+                    
+                    <ul class="about-features">
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                            <div>
+                                <h4>Years of Customer Trust</h4>
+                                <p>Building relationships through pure quality and taste.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                            <div>
+                                <h4>Variety and Freshness</h4>
+                                <p>Prepared fresh daily with handpicked premium ingredients.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-smile"></i></div>
+                            <div>
+                                <h4>Friendly and Courteous Service</h4>
+                                <p>Welcoming you with a smile, every single time.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="images/desi_ghee.png" alt="Traditional Sweets making">
+                        <div class="experience-badge">
+                            <span class="number">10+</span>
+                            <span class="text">Years of<br>Trust</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products / Menu Section -->
+    <section id="menu" class="menu section bg-cream">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="subtitle">Our Menu</span>
+                <h2 class="section-title">Explore Our Range</h2>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Category 1 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-img">
+                        <img src="images/desi_ghee.png" alt="Desi Ghee Sweets" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Desi Ghee Sweets</h3>
+                        <p>Rich, traditional sweets made with pure ingredients</p>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card-img">
+                        <img src="images/mawa.png" alt="Mawa Sweets" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Mawa Sweets</h3>
+                        <p>Creamy, indulgent authentic Indian delights</p>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-img">
+                        <img src="images/bengali.png" alt="Bengali Sweets" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bengali Sweets</h3>
+                        <p>Soft, juicy, and flavor-rich seasonal favorites</p>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=600&auto=format&fit=crop" alt="Namkeen & Snacks" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Namkeen & Snacks</h3>
+                        <p>Crunchy, savory, and perfect for any time</p>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?q=80&w=600&auto=format&fit=crop" alt="Dry Fruits" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dry Fruits</h3>
+                        <p>Premium quality nuts and gift selections</p>
+                    </div>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="card-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Panir_Paneer_Indian_cheese_fresh.jpg/960px-Panir_Paneer_Indian_cheese_fresh.jpg" alt="Dairy & Bakery" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dairy & Bakery</h3>
+                        <p>Fresh daily essentials, bread and treats</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta text-center" data-aos="zoom-in">
+                <a href="#" class="btn btn-primary btn-lg">
+                    <i class="fas fa-shopping-bag"></i> Order Fresh Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Why Customers Trust Madhuban</h2>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrap"><i class="fas fa-store"></i></div>
+                    <h3>Wide Variety Under One Roof</h3>
+                </div>
+                <div class="feature-box" data-aos="fade-up" data-aos-delay="150">
+                    <div class="icon-wrap"><i class="fas fa-fire-burner"></i></div>
+                    <h3>Freshly Prepared Every Day</h3>
+                </div>
+                <div class="feature-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrap"><i class="fas fa-wallet"></i></div>
+                    <h3>Affordable & Value for Money</h3>
+                </div>
+                <div class="feature-box" data-aos="fade-up" data-aos-delay="250">
+                    <div class="icon-wrap"><i class="fas fa-users"></i></div>
+                    <h3>Courteous Staff & Service</h3>
+                </div>
+                <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrap"><i class="fas fa-award"></i></div>
+                    <h3>Consistent Taste Over Years</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="reviews" class="testimonials section bg-cream">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="subtitle">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Excellent variety of sweets and snacks. The taste is awesome. Must try pani puri in the evening. Highly recommended for family events!"</p>
+                    <div class="customer-info">
+                        <div class="avatar">R</div>
+                        <div>
+                            <h4>Rahul S.</h4>
+                            <span>Local Guide</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="review-text">"Best place for snacks and sweets in Handewadi. Quality is always consistent and prices are reasonable. Their desi ghee laddoos are my favorite."</p>
+                    <div class="customer-info">
+                        <div class="avatar bg-maroon">P</div>
+                        <div>
+                            <h4>Priya M.</h4>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strong CTA Section -->
+    <section class="cta-section section">
+        <div class="cta-overlay"></div>
+        <div class="container text-center cta-content" data-aos="zoom-in">
+            <h2>Craving Something Delicious?</h2>
+            <p>Order now and enjoy fresh sweets and snacks delivered straight to your doorstep.</p>
+            <div class="hero-cta-group justify-center mt-4">
+                <a href="https://www.swiggy.com/city/pune/madhuban-mithaiwala-pandhari-nagar-hadapsar-rest881261?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" class="btn btn-accent btn-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/200px-Swiggy_logo.svg.png" alt="" class="swiggy-icon"> Order on Swiggy
+                </a>
+                <a href="tel:9766428270" class="btn btn-primary btn-lg">
+                    <i class="fas fa-phone-alt"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2 class="section-title">Visit Us</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="content">
+                                <h4>Our Location</h4>
+                                <p>Shop No. 17-18, Ground Floor, Bldg B, Rhythm County, Handewadi, Pune, Maharashtra</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="content">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:9766428270">9766428270</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fas fa-clock"></i></div>
+                            <div class="content">
+                                <h4>Opening Hours</h4>
+                                <p>Open Daily: 8:00 AM – 10:00 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-map" data-aos="fade-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15138.86720499264!2d73.91610425!3d18.4513867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaa9f3dcaabd%3A0xcfe0eeb04e6bd7f7!2sHandewadi%2C%20Autadwadi%20Handewadi%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo text-white">Madhuban <span>Mithaiwale</span></a>
+                    <p class="tagline">"Serving sweetness, every day."</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone-alt"></i> 9766428270</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Rhythm County, Handewadi, Pune</p>
+                    <p><i class="fas fa-envelope"></i> info@madhubanmithaiwale.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Madhuban Mithaiwale. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA Bar -->
+    <div class="mobile-sticky-cta">
+        <a href="tel:9766428270" class="btn-call"><i class="fas fa-phone-alt"></i> Call</a>
+        <a href="https://www.swiggy.com/city/pune/madhuban-mithaiwala-pandhari-nagar-hadapsar-rest881261?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" class="btn-order"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/200px-Swiggy_logo.svg.png" alt=""> Swiggy</a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
